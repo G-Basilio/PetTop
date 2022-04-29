@@ -2,7 +2,7 @@
 
 :root {
   --primary: #06d6a0;
-  --secondary:#FA643D;
+  --secondary: #fa643d;
 }
 
 html,
@@ -34,11 +34,24 @@ input[type="date"]:disabled {
 }
 
 .btn {
-    font-size: 15px;
+  font-size: 15px;
+}
+
+.bg-primary {
+  background-color: var(--secondary) !important;
 }
 
 .bg-secondary {
-    background-color: var(--secondary) !important;
+  background-color: var(--secondary) !important;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:disabled,
+.btn-primary:hover {
+  background-color: var(--primary) !important;
+  border-color: var(--primary);
 }
 
 .btn-secondary,
@@ -46,8 +59,8 @@ input[type="date"]:disabled {
 .btn-secondary:active,
 .btn-secondary:disabled,
 .btn-secondary:hover {
-    background-color: var(--secondary) !important;
-    border-color: var(--secondary);
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary);
 }
 .bg-primary {
   background-color: var(--primary) !important;
